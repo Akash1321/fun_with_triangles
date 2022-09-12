@@ -17,7 +17,7 @@ function inputButtonHandler(){
 
     let sumOfAngles = calculateSumOfAngles(Number(threeAngles[0].value), Number(threeAngles[1].value), Number(threeAngles[2].value));
 
-    if(threeAngles[0].value == "" || threeAngles[1].value == "" || threeAngles[2].value == "" ){
+    if(threeAngles[0].value == false || threeAngles[1].value == false || threeAngles[2].value == false ){
 
         displayOutput.innerText = "You have to provide all three angles" 
 
