@@ -22,10 +22,12 @@ function inputButtonHandler(){
         displayOutput.innerText = "You have to provide all three angles" 
 
     } else if (sumOfAngles === 180){
+        displayOutput.style.color = "green"
         displayOutput.innerText = "Yes it is a triangle"
 
     } else {
         displayOutput.innerText = "No it not a triangle"
+        displayOutput.style.color = "red"
     }
 
     

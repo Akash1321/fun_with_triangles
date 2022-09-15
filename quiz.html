@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz about triangle</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Is Triangle</a></li>
+            <li><a href="quiz.html" class="active">Quiz</a></li>
+            <li><a href="hyp.html">Hypotenuse</a></li>
+            <li><a href="area.html">Area of triangle</a></li>
+        </ul>
+
+    </nav>
+
+    <header>
+        <h1>Play Triangle quiz</h1>
+        <p>You score 1 point for each correct answer.</p>
+    </header>
+
+    <form id="quiz-form">
+        <div class="question-options">
+            <p><span>1. </span>A triangle with one angle greater than 90 degrees.</p>
+
+            <label><input type="radio" value="obtuse" name="question1" />Obtuse triangle</label>
+            <label><input type="radio" value="acute" name="question1" />Acute trianlgle</label>
+            <label><input type="radio" value="equilateral" name="question1" />Equilateral triangle</label>
+
+        </div>
+
+        <div class="question-options">
+            <p><span>2. </span>A triangle with all three angles less than 90 degrees.</p>
+
+            <label><input type="radio" value="isoceles" name="question2" />Isoceles triangle</label>
+            <label><input type="radio" value="acute" name="question2" />Acute trianlgle</label>
+            <label><input type="radio" value="equilateral" name="question2" />Equilateral triangle</label>
+            
+        </div>
+
+        <div class="question-options">
+            <p><span>3. </span>A triangle having at least two equal sides.</p>
+
+            <label><input type="radio" value="acute" name="question3" />Acute trianlgle</label>
+            <label><input type="radio" value="isoceles" name="question3" />Isoceles triangle</label>
+            <label><input type="radio" value="right-angled" name="question3" />Right angled triangle</label>
+            
+        </div>
+
+        <div class="question-options">
+            <p><span>4. </span>A triangle with one angle equal to 90 degrees.</p>
+
+            <label><input type="radio" value="equilateral" name="question4" />Equilateral triangle</label>
+            <label><input type="radio" value="right-angled" name="question4" />Right angled triangle</label>
+            <label><input type="radio" value="obtuse" name="question4" />Obtuse triangle</label>
+            
+            
+        </div>
+
+        <div class="question-options">
+            <p><span>5. </span>A triangle having three equal sides.</p>
+
+            <label><input type="radio" value="equilateral" name="question5" />Equilateral triangle</label>
+            <label><input type="radio" value="acute" name="question5" />Acute trianlgle</label>
+            <label><input type="radio" value="isoceles" name="question5" />Isoceles triangle</label>
+            
+            
+        </div>
+
+        <div class="question-options">
+            <p><span>6. </span>The sum of the measures of all three sides of a triangle.</p>
+
+            <label><input type="radio" value="area" name="question6" />Area</label>
+            <label><input type="radio" value="perimeter" name="question6" />Perimeter</label>
+            <label><input type="radio" value="diameter" name="question6" />Diameter</label>
+            
+        </div>
+
+        <div class="question-options">
+            <p><span>7. </span>In right triangle, the side opposite to right angle is called.</p>
+
+            <label><input type="radio" value="altitude" name="question7" />Altitude</label>
+            <label><input type="radio" value="angle-bisector" name="question7" />Angle bisector</label>
+            <label><input type="radio" value="hypotenuse" name="question7" />Hypotenuse</label>
+            
+            
+        </div>
+
+        <div class="question-options">
+            <p><span>8. </span>In equilateral triangle, all three angles are equal.</p>
+
+            <label><input type="radio" value="true" name="question8" />True</label>
+            <label><input type="radio" value="false" name="question8" />False</label>
+            
+        </div>
+
+        <div class="question-options">
+            <p><span>9. </span>The perimeter of a equilateral triangle is 15cm. What is the length of one side?</p>
+
+            <label><input type="radio" value="3" name="question9" />3</label>
+            <label><input type="radio" value="45" name="question9" />45</label>
+            <label><input type="radio" value="5" name="question9" />5</label>
+            
+             
+        </div>
+
+        <div class="question-options">
+            <p><span>10. </span>The sum of all the angles of a triangle.</p>
+
+            <label><input type="radio" value="360" name="question10" />360 degrees</label>
+            <label><input type="radio" value="180" name="question10" />180 degrees</label>
+            <label><input type="radio" value="90" name="question10" />90 degrees</label>
+            
+             
+        </div>
+
+
+
+
+    </form>
+
+    <div class="btn-n-output">
+
+    <button id="button" class="btn">Submit</button>
+
+    <div id="output"></div>
+
+    </div>
+
+   
+
+
+
+    <footer>
+        <div class="foot-div foot-contain">
+    
+            <p>Social links</p>
+            <div class="foot-div">
+                <a href="https://github.com/Akash1321" target="_blank" class="social-link"><img src="icons/github blue.svg" width="30" height="30" alt=""></a>
+                <a href="https://twitter.com/akashsarkar_13" target="_blank" class="social-link"><img src="icons/twitter blue.svg" width="30" height="30" alt=""></a>
+                <a href="https://www.linkedin.com/in/akashsarkar13/" target="_blank" class="social-link"><img src="icons/linkedin blue.svg" width="30" height="30" alt=""></a>
+                
+            </div>
+            
+        </footer>
+    
+</body>
+
+<script src="quiz.js"></script>
+</html> 

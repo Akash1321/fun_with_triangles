@@ -9,17 +9,22 @@ function findArea(){
     let area = (Number(base.value)* Number(height.value)) / 2;
     
     
-    if (base.value == false || height.value == false){
+    if (base.value == "" || height.value == ""){
+
+        displayOutput.style.color = "red"
 
         displayOutput.innerText = "You should provide both the values"
 
     }else if(base.value > 0 && height.value > 0){
 
-        displayOutput.innerText = "The area of triangle is " + area + "square units"
+        displayOutput.style.color = "green"
+
+        displayOutput.innerText = "The area of triangle is " + area + " (square units)"
 
        
 
     }else {
+        displayOutput.style.color = "red"
         displayOutput.innerText = "You input should be greater than zero"
     }
 

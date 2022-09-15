@@ -5,8 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area of triangle</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Is Triangle</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="hyp.html">Hypotenuse</a></li>
+            <li><a href="area.html" class="active">Area of triangle</a></li>
+        </ul>
+
+    </nav>
 
     <header>
         <h1> Calculate area triangle</h1>
@@ -14,18 +26,31 @@
     </header>
 
     <main>
-        <lable for="base">Base </lable>
+        <label for="base">Base </label>
         <input type="number" id="base" />
 
-        <lable for="height">Height </lable>
+        <label for="height">Height </label>
         <input type="number" id="height" />
 
-        <button id="button">Calculate</button>
+        <button id="button" class="btn">Calculate</button>
 
         <div id="output"></div>
 
 
     </main>
+
+    <footer>
+        <div class="foot-div foot-contain">
+    
+            <p>Social links</p>
+            <div class="foot-div">
+                <a href="https://github.com/Akash1321" target="_blank" class="social-link"><img src="icons/github blue.svg" width="30" height="30" alt=""></a>
+                <a href="https://twitter.com/akashsarkar_13" target="_blank" class="social-link"><img src="icons/twitter blue.svg" width="30" height="30" alt=""></a>
+                <a href="https://www.linkedin.com/in/akashsarkar13/" target="_blank" class="social-link"><img src="icons/linkedin blue.svg" width="30" height="30" alt=""></a>
+                
+            </div>
+            
+        </footer>
     
 </body>
 
