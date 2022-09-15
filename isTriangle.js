@@ -20,6 +20,7 @@ function inputButtonHandler(){
     if(threeAngles[0].value == false || threeAngles[1].value == false || threeAngles[2].value == false ){
 
         displayOutput.innerText = "You have to provide all three angles" 
+        displayOutput.style.color = "red"
 
     } else if (sumOfAngles === 180){
         displayOutput.style.color = "green"
