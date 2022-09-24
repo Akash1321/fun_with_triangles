@@ -14,3 +14,5 @@ Here we take length of two sides as an input and then prints the hypotenuse calc
 
 ### To find area 
 Here we take height and base of the triangle as input and finds out the area of the triangle.
+
+![image of the website](src/mark12_img.png)
