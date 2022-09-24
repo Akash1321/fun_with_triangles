@@ -29,7 +29,7 @@ function handleCalculateButton(){
     } else {
 
         displayOutput.style.color = "red"
-        displayOutput.innerText = "You input should be greater than zero"
+        displayOutput.innerText = "Your input should be greater than zero"
 
     }
     
